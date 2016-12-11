@@ -58,3 +58,20 @@ void IOFunc() {
     string x = "7832";
     cout << x << endl;
 }
+
+void customFunc() {
+    //String的定义
+    const string AuthorName("shenAlexy");
+    cout << AuthorName << endl;
+    
+}
+
+//class
+class person {
+private:
+    static const int age = 25;
+    string name = "shenAlexy";
+    int a[12];
+public:
+    const int num = 0001;
+};

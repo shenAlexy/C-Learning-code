@@ -25,6 +25,8 @@ int main(int argc, const char * argv[]) {
     
     //test函数调用
     IOFunc();
+    customFunc();
+    
 
     return 0;
 }

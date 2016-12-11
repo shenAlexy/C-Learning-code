@@ -13,5 +13,6 @@
 #include <iostream>
 
 void IOFunc();
+void customFunc();
 
 #endif /* custom_hpp */
