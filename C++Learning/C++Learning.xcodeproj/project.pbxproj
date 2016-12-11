@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1644FDD1DFD22BB00EE7BD5 /* custom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1644FDB1DFD22BB00EE7BD5 /* custom.cpp */; };
+		C19244591DFD487D0074441A /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19244571DFD487D0074441A /* Algorithm.cpp */; };
 		C1BFBA1B1DFB9CBF001056C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1BFBA1A1DFB9CBF001056C2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		C1644FDB1DFD22BB00EE7BD5 /* custom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = custom.cpp; sourceTree = "<group>"; };
 		C1644FDC1DFD22BB00EE7BD5 /* custom.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = custom.hpp; sourceTree = "<group>"; };
+		C19244571DFD487D0074441A /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		C19244581DFD487D0074441A /* Algorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Algorithm.hpp; sourceTree = "<group>"; };
 		C1BFBA171DFB9CBF001056C2 /* C++Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Learning"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BFBA1A1DFB9CBF001056C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				C1BFBA1A1DFB9CBF001056C2 /* main.cpp */,
 				C1644FDB1DFD22BB00EE7BD5 /* custom.cpp */,
 				C1644FDC1DFD22BB00EE7BD5 /* custom.hpp */,
+				C19244571DFD487D0074441A /* Algorithm.cpp */,
+				C19244581DFD487D0074441A /* Algorithm.hpp */,
 			);
 			path = "C++Learning";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1644FDD1DFD22BB00EE7BD5 /* custom.cpp in Sources */,
+				C19244591DFD487D0074441A /* Algorithm.cpp in Sources */,
 				C1BFBA1B1DFB9CBF001056C2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

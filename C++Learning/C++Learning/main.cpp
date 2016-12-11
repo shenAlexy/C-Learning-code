@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "custom.hpp"
+#include "Algorithm.hpp"
 
 using namespace std;
 
@@ -27,6 +28,9 @@ int main(int argc, const char * argv[]) {
     IOFunc();
     customFunc();
     
+    //C++ 算法
+    char *str = (char *)"I'm a good boy...";
+    findMaxChar(str);
 
     return 0;
 }
